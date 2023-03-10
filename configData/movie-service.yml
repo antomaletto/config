@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ebe1?createDatabaseIfNotExist=true
     username: user_ebe1
-    password: 1234
+    password: passwordebe1
    jpa:
     database-platform: org.hibernate.dialect.MySQL57Dialect
     hibernate.ddl-auto: update
