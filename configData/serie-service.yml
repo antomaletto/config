@@ -9,6 +9,9 @@ spring:
     mongodb:
       database: test
       port: 27017
+info:
+  application:
+    name: serie-service      
   
 eureka:
   instance:
