@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: serie-service  
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
   mongodb:
     embedded:
       version: 4.0.2
